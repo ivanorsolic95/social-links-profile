@@ -1,0 +1,32 @@
+:root {
+    --font-bold: 'InterBold', sans-serif;
+    --font-regular: 'InterRegular', sans-serif;
+    --font-semibold: 'InterSemiBold', sans-serif;
+
+    --font-size-paragraph: 0.875rem;
+    --font-size-heading: 1.5rem;
+}
+
+@font-face {
+    font-family: 'InterBold';
+    font-weight: 700;
+    font-style: normal;
+    src: url('/assets/fonts/static/Inter-Bold.ttf')
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'InterRegular';
+    font-weight: 400;
+    font-style: normal;
+    src: url('/assets/fonts/static/Inter-Regular.ttf')
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'InterSemiBold';
+    font-weight: 600;
+    font-style: normal;
+    src: url('/assets/fonts/static/Inter-SemiBold.ttf')
+    format('truetype');
+}
